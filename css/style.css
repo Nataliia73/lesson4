@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+}
+
+.main_title {
+  font-size: 60px;
+  letter-spacing: 10px;
+  text-align: center;
+  line-height: 100px;
+  color: rgb(64, 64, 212);
+  font-weight: 700;
+  text-indent: 2.5em;
+}
+p {
+  line-height: 30px;
+  font-size: 20px;
+  text-indent: 1.5em;
+  text-align: justify;
+}
+.small-text {
+  font-size: 15px;
+}
+.ocean {
+  color: brown;
+  font-style: italic;
+}
+
+.name_ocean {
+  font-size: 25px;
+  text-align: left;
+  line-height: 40px;
+  text-indent: 1.5em;
+}
+.content {
+  font-size: 40px;
+  text-align: left;
+  color: darkgreen;
+  font-weight: 500;
+  text-indent: 2.5em;
+}
+.content_title {
+  font-size: 30px;
+  color: deeppink;
+  text-indent: 2.2em;
+  line-height: 30px;
+}
+h2 {
+  line-height: 55px;
+  letter-spacing: 10px;
+  font-weight: 600px;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: orangered;
+  text-indent: 2.2em;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+.shadow {
+  text-shadow: 2px 3px 5px #ff0000;
+}
+.shadow > span {
+  color: springgreen;
+  letter-spacing: 5px;
+  text-shadow: 2px 3px 5px #1d4e1b;
+}
+.content_title > li {
+  line-height: 40px;
+  letter-spacing: 5px;
+}
+.name_ocean > li > a {
+  text-decoration: underline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.climat {
+  text-align: center;
+  font-style: oblique;
+  color: violet;
+}
+
+footer {
+  text-align: center;
+}
+.up {
+  color: #750808;
+  font-size: 50px;
+  font-weight: 500;
+}
